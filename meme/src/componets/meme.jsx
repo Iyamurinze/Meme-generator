@@ -6,10 +6,10 @@ export default function Meme(){
 
       function getMemeimage(){
         const memeArray = memeData.data.memes
-        const randomNumber = math.floor(math.random() * memeArray.length)
+        const randomNumber = Math.floor(Math.random() * memeArray.length)
         setMemeImage(memeArray[randomNumber].url)
     }
-    
+
     return(
         <main>
             <div className="form">
@@ -20,12 +20,12 @@ export default function Meme(){
                     className="form--input" 
                        placeholder="Bottom text"/>
 
-               <button className="form--button">
+               <button className="form--button" onClick={getMemeimage}>
                Get a new meme image 🖼
                </button>
             </div>
             <div>
-                <img src= {memeImage} className="meme--image"/>
+                <img src= {memeImage} className="meme--image" alt="meme"/>
             </div>
         </main>
     )
