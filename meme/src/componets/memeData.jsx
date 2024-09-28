@@ -4,7 +4,7 @@ export default{
         "meme":[
             {
                 "id":"181913649",
-                "name":"Dake Hotline Bling",
+                "name":"Drake Hotline Bling",
                 "url":"https://i.imgflip.com/30b1gx.jpg",
                 "width":"1200",
                 "height":"1200",
@@ -12,7 +12,7 @@ export default{
             },
             {
                 "id":"181913649",
-                "name":"Dake Hotline Bling",
+                "name":"Drake Hotline Bling",
                 "url":"https://i.imgflip.com/30b1gx.jpg",
                 "width":"1200",
                 "height":"1200",
@@ -20,7 +20,7 @@ export default{
             },
             {
                 "id":"181913649",
-                "name":"Dake Hotline Bling",
+                "name":"Drake Hotline Bling",
                 "url":"https://i.imgflip.com/30b1gx.jpg",
                 "width":"1200",
                 "height":"1200",
