@@ -60,7 +60,18 @@ margin-right: 6px;
 }
 
 .meme--image{
+  margin-top: 12px;
   max-width: 100%
   
 }
+
+.meme--textTop{
+ font-size: larger;
+ font-weight: bold;
+}
+
+.meme--textBottom{
+  font-size: x-large;
+  font-weight: bold;
+ }
 
