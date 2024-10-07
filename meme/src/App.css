@@ -59,18 +59,38 @@ margin-right: 6px;
  
 }
 
+.meme{
+  position: relative;
+  text-align: center;
+}
+
 .meme--image{
   margin-top: 12px;
   max-width: 100%
   
 }
 
+.meme--text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  padding: 0 5px;
+  width: 90%; 
+  text-align: center;
+}
+
 .meme--textTop{
+  top: 10px;
  font-size: larger;
  font-weight: bold;
 }
 
 .meme--textBottom{
+  bottom: 100px;
   font-size: x-large;
   font-weight: bold;
  }
